@@ -1,0 +1,190 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  
+}
+
+.container1 {
+    background-color: black;
+    height: 8vh; 
+}
+
+.top-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: black;
+    color: white;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.nav-list {
+    display: flex;
+   justify-content: space-between;
+   list-style: none;
+flex-flow: row wrap;
+width: 30%;
+
+}
+
+.button{
+
+    background-color: rgb(253, 253, 253);
+    color: rgb(15, 14, 14);
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    
+
+   
+
+  
+}
+
+.main-content {
+    display: flex;
+    justify-content: center;
+   align-items: center;
+    height: 30vh;
+    text-align: center;
+   flex-flow: nowrap;
+    padding: 0 20px;
+
+}
+
+.img-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    max-width: 1200px;
+}
+.flex-item {
+  
+    border-radius: 8px;
+    margin: 10px;
+    text-align: center;
+    flex-basis: calc(33.333% - 20px);
+    box-sizing: border-box;
+}
+
+.flex-item img {
+    width: 100%;
+    height: auto;
+}
+
+.flex-item h3 {
+    margin: 15px 0;
+    font-size: 1rem;
+
+}
+/*end img*/
+
+.container {
+    display: flex;
+    position: relative;
+  
+   
+  
+   
+}
+
+.img1{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    max-width: 600px;
+    flex: 1;
+    padding-top: 9%;
+  
+}
+
+.img1 img {
+    width: 50%;
+    height: 100%;
+    border-radius: 8px;
+}
+.img2 {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+   
+    width: 50%;
+    height: 60%
+}
+
+.img2 img {
+    width: 50%;
+    height: 100%;
+    border-radius: 8px;
+}
+
+.right {
+    max-width: 50%;
+    padding-left: 60%;
+   padding-top: 0%;
+  transform: translate(-5rem, -11rem);
+
+ 
+}
+
+.right h2 {
+    font-size: 2rem;
+    margin-bottom: 1%;
+}
+
+.right p {
+    margin-bottom: 2%;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+.btn {
+    background-color: rgb(253, 253, 253);
+    color: rgb(15, 14, 14);
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    
+}
+
+
+
+.embty {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 20px auto;
+}
+
+.y {
+    flex: 1;
+    margin: 0 10px;
+    box-sizing: border-box;
+}
+
+.y img {
+    width: 100%;
+    height: auto;
+    display: flex;
+
+}
+
+.footer {
+    margin-top: 20px;
+}
+
+.footer p {
+    font-size: 1.2rem;
+    color: #fefafa;
+    text-align: center;
+}
