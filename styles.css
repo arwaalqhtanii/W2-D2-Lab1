@@ -19,13 +19,14 @@ body {
 }
 
 .logo {
-    font-size: 1.5rem;
-    font-weight: bold;
+    font-size: 1rem;
+  
 }
 
 .nav-list {
     display: flex;
     justify-content: space-between;
+
     list-style: none;
     flex-flow: row wrap;
     width: 30%;
@@ -59,6 +60,7 @@ button {
 
 }
 
+
 .img-container {
     display: flex;
     flex-wrap: wrap;
@@ -89,6 +91,7 @@ button {
 
 /*end img*/
 
+
 .container {
     display: flex;
     position: relative;
@@ -97,7 +100,9 @@ button {
 
 
 }
-
+.white{
+    background-color: white;
+}
 .img1 {
     display: flex;
     gap: 10px;
@@ -116,11 +121,11 @@ button {
 
 .img2 {
     position: absolute;
-    top: 50%;
+    top: 300%;
     left: 10%;
 
     width: 50%;
-    height: 60%
+    height: 25%
 }
 
 .img2 img {
@@ -134,6 +139,8 @@ button {
     padding-left: 60%;
     padding-top: 0%;
     transform: translate(-5rem, -11rem);
+    color: #050000;
+   
 
 
 }
@@ -141,6 +148,7 @@ button {
 .right h2 {
     font-size: 2rem;
     margin-bottom: 1%;
+
 }
 
 .right p {
@@ -150,8 +158,8 @@ button {
 }
 
 .btn {
-    background-color: rgb(253, 253, 253);
-    color: rgb(15, 14, 14);
+    background-color: rgb(6, 1, 1);
+    color: rgb(255, 255, 255);
     border: none;
     padding: 10px 20px;
     cursor: pointer;
@@ -189,6 +197,6 @@ button {
 
 .footer p {
     font-size: 1.2rem;
-    color: #fefafa;
+    color: #050000;
     text-align: center;
 }
